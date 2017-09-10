@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-    alert("Welcome to the official website of Kentucky Division");
-</script>
 <title>
 KYDIV</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +15,20 @@ p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:norma
 <body>
 <h4>KYDIV</h4>
 <p>This would be used as a paragraph for information about KYDIV</p>
+    <!-- Place this where you whant the button to be displayed -->
+<div id="plusone"></div>
+
+<!-- Place this ta the very bottom of your html page -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+//<![CDATA[ { "lang": "en-GB", "parsetags": "explicit" } //]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+	gapi.plusone.render("plusone",
+  		{"size": "standard", "count": "true" });
+//]]>
+</script>
+
 </body>
 </html>
 
